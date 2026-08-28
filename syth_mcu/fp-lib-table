@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "synth") (type "KiCad") (uri "/Users/nukerducker/Documents/University/Year-3/Microcon/synth/synth.pretty") (options "") (descr ""))
+)

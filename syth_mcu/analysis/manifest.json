@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "project": "syth_mcu.kicad_pro",
+  "current": "2026-08-28_2235",
+  "runs": {
+    "2026-08-28_2223": {
+      "source_hashes": {
+        "syth_mcu.kicad_sch": "sha256:7c30d768671491fd680e1757716390c8d0d7edc9dffc38e621054a7021469afc"
+      },
+      "outputs": {
+        "schematic": "schematic.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py syth_mcu.kicad_sch"
+      },
+      "generated": "2026-08-28T22:23:23+07:00",
+      "pinned": false
+    },
+    "2026-08-28_2235": {
+      "source_hashes": {
+        "syth_mcu.kicad_sch": "sha256:bab9022df9d14f32d8ce2326d4fdfd3b720d05f48ca1f061ee1c025189d70076"
+      },
+      "outputs": {
+        "schematic": "schematic.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py syth_mcu.kicad_sch"
+      },
+      "generated": "2026-08-28T22:40:19+07:00",
+      "pinned": false
+    }
+  }
+}

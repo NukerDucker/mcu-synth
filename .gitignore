@@ -1,0 +1,23 @@
+.DS_Store
+
+# KiCad backups/autosave
+*.bak
+*-bak
+_autosave-*
+*-save.pro
+*.kicad_sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+
+# KiCad lock/project-local settings
+*.kicad_prl
+*.lck
+
+# Plot/fab outputs (regenerate from source)
+*.pos
+*.drl
+*.gbr
+*.gbrjob
+*.zip
+gerber/
+plot/
