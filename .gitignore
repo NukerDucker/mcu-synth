@@ -21,3 +21,4 @@ fp-info-cache
 *.zip
 gerber/
 plot/
+syth_mcu/.history/
