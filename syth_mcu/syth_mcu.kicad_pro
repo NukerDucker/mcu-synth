@@ -669,13 +669,17 @@
         "uuid": "6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc"
       }
     ],
-    "used_designators": "#FLG1-2,J1-3,H1-12,RV1-5,SW1-5,D1-2,#PWR1-29,R1-4,U1-5",
+    "used_designators": "RV1-7,Q1-4,D1-2,#PWR1-36,C1-8,SW1-5,U1-6,F1,H1-12,R1-10,J1-4,#FLG1-2",
     "variants": []
   },
   "sheets": [
     [
       "6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc",
       "Root"
+    ],
+    [
+      "de801ae6-5eb3-45eb-b018-1b4139932f15",
+      "DAC Channel"
     ]
   ],
   "text_variables": {},
