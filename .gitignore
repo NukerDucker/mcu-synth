@@ -22,3 +22,4 @@ fp-info-cache
 gerber/
 plot/
 syth_mcu/.history/
+syth_mcu/temp-freerouting.dsn
