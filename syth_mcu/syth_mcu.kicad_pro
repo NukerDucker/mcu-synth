@@ -665,17 +665,17 @@
     "top_level_sheets": [
       {
         "filename": "syth_mcu.kicad_sch",
-        "name": "Root",
+        "name": "Right",
         "uuid": "6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc"
       }
     ],
-    "used_designators": "RV1-7,Q1-4,D1-2,#PWR1-36,C1-8,SW1-5,U1-6,F1,H1-12,R1-10,J1-4,#FLG1-2",
+    "used_designators": "RV1-8,Q1-4,D1-2,#PWR1-36,C1-8,SW1-8,U1-6,F1,H1-22,R1-10,J1-10,#FLG1-2",
     "variants": []
   },
   "sheets": [
     [
       "6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc",
-      "Root"
+      "Right"
     ],
     [
       "de801ae6-5eb3-45eb-b018-1b4139932f15",
