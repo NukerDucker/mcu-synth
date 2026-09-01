@@ -4223,7 +4223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80nF"
+		(property "Value" "100nF"
 			(at 77.47 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5306,7 +5306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W3.2mm_P7.50mm_MKT"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 105.1052 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5393,7 +5393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W3.2mm_P7.50mm_MKT"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 105.1052 46.99 0)
 			(hide yes)
 			(show_name no)
