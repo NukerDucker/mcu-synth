@@ -589,39 +589,6 @@
 					)
 				)
 			)
-			(property "Sim.Device" "R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "POT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "resistor variable"
 				(at 0 0 0)
 				(show_name no)
@@ -2848,7 +2815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "synth:CONN-TH_PJ-316"
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal"
 			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -3491,7 +3458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "synth:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 104.14 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3514,39 +3481,6 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 104.14 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 104.14 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "POT"
-			(at 104.14 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
 			(at 104.14 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4289,7 +4223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80nF"
+		(property "Value" "100nF"
 			(at 77.47 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4300,7 +4234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 80.3148 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4388,7 +4322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "synth:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 104.14 127 0)
 			(hide yes)
 			(show_name no)
@@ -4411,39 +4345,6 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 104.14 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 104.14 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "POT"
-			(at 104.14 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
 			(at 104.14 127 0)
 			(hide yes)
 			(show_name no)
@@ -4501,7 +4402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80nF"
+		(property "Value" "100nF"
 			(at 77.47 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4512,7 +4413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 80.3148 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5106,7 +5007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 103.1748 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5318,7 +5219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 103.1748 66.04 0)
 			(hide yes)
 			(show_name no)

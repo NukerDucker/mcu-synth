@@ -156,7 +156,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -527,7 +527,7 @@
       "plot": "./",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "syth_mcu.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -699,7 +699,7 @@
         "uuid": "6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc"
       }
     ],
-    "used_designators": "RV1-8,Q1-4,D1-2,#PWR1-37,C1-8,SW1-8,U1-6,F1,H1-22,R1-10,J1-11,#FLG1-2",
+    "used_designators": "#FLG1-2,J1-13,R1-10,H1-22,F1,SW1-8,U1-6,C1-9,#PWR1-38,D1-2,Q1-4,RV1-8",
     "variants": []
   },
   "sheets": [

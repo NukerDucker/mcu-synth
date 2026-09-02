@@ -41,7 +41,7 @@
 	(fp_line (start -11.04 -2.00) (end 11.04 -2.00) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 11.04 -2.00) (end 11.04 2.00) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 11.04 2.00) (end -11.04 2.00) (layer F.CrtYd) (width 0.05))
-	(model "pogo5.3dshapes/CONN-TH_PR5L4015-5P-C-F.wrl"
+	(model "${KIPRJMOD}/local_3dmodels/pogo5.3dshapes/CONN-TH_PR5L4015-5P-C-F.step"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

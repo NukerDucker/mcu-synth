@@ -1086,14 +1086,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12d1a797-8c0f-42a9-b15f-ad930e81fb51")
-		(property "Reference" "H3"
-			(at 138.43 36.83 90)
+		(property "Reference" "H15"
+			(at 138.4299 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" ""
@@ -1151,7 +1152,7 @@
 		(instances
 			(project "syth_mcu"
 				(path "/b9b81bb9-b7d6-4262-8e2b-de009d5ce128"
-					(reference "H3")
+					(reference "H15")
 					(unit 1)
 				)
 			)
@@ -1169,14 +1170,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bf1f61b-a655-42a6-a05e-0dec35fe739e")
-		(property "Reference" "H2"
-			(at 129.54 36.83 90)
+		(property "Reference" "H14"
+			(at 129.5399 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" ""
@@ -1234,7 +1236,7 @@
 		(instances
 			(project "syth_mcu"
 				(path "/b9b81bb9-b7d6-4262-8e2b-de009d5ce128"
-					(reference "H2")
+					(reference "H14")
 					(unit 1)
 				)
 			)
@@ -1252,15 +1254,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b4ec6a1-fc58-4642-adac-8ef97a80e864")
-		(property "Reference" "H5"
-			(at 161.29 42.5449 90)
+		(property "Reference" "H17"
+			(at 156.2099 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" ""
@@ -1318,7 +1320,7 @@
 		(instances
 			(project "syth_mcu"
 				(path "/b9b81bb9-b7d6-4262-8e2b-de009d5ce128"
-					(reference "H5")
+					(reference "H17")
 					(unit 1)
 				)
 			)
@@ -1335,28 +1337,25 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5e2e1564-554a-4661-b9d3-fcf84ad798e3")
 		(property "Reference" "J10"
-			(at 118.11 71.1199 0)
+			(at 120.65 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x07"
-			(at 118.11 73.6599 0)
+			(at 120.65 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
@@ -1513,14 +1512,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "865eaa70-a339-485c-9dde-a1bb6ca81688")
-		(property "Reference" "H1"
-			(at 120.65 36.83 90)
+		(property "Reference" "H13"
+			(at 120.6499 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" ""
@@ -1578,7 +1578,7 @@
 		(instances
 			(project "syth_mcu"
 				(path "/b9b81bb9-b7d6-4262-8e2b-de009d5ce128"
-					(reference "H1")
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -1608,13 +1608,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 83.82 90)
+			(at 129.54 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -1674,14 +1675,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8afc4e2-a68b-4b8b-aa6e-7eab2636b9af")
-		(property "Reference" "H4"
-			(at 147.32 36.83 90)
+		(property "Reference" "H16"
+			(at 147.3199 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" ""
@@ -1739,7 +1741,7 @@
 		(instances
 			(project "syth_mcu"
 				(path "/b9b81bb9-b7d6-4262-8e2b-de009d5ce128"
-					(reference "H4")
+					(reference "H16")
 					(unit 1)
 				)
 			)
