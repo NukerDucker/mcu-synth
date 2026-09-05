@@ -5054,6 +5054,12 @@
 		(uuid "e7558185-1f50-45c7-aedc-2442a3f8767c")
 	)
 	(junction
+		(at 176.53 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0670673d-e3f3-45e0-a44f-557d49e597a2")
+	)
+	(junction
 		(at 231.14 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5072,12 +5078,6 @@
 		(uuid "1f41c181-6ee5-4522-9988-1004b8e5d600")
 	)
 	(junction
-		(at 176.53 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22d2acd8-3d61-46f2-84ce-f980e66da4c1")
-	)
-	(junction
 		(at 210.82 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5090,10 +5090,16 @@
 		(uuid "3b7159ee-9275-4ab5-8577-f45e58684a6c")
 	)
 	(junction
-		(at 204.47 60.96)
+		(at 176.53 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f417970-47f0-4ec4-bbb6-27624bdf899a")
+		(uuid "439be5c0-4c23-4a8a-93d5-0bce05aea3f8")
+	)
+	(junction
+		(at 210.82 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56d8b750-bd80-4b1a-97da-8503f1fdc99d")
 	)
 	(junction
 		(at 228.6 39.37)
@@ -5106,6 +5112,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a0ba258-a3f2-4356-b99e-ef11db70ff5f")
+	)
+	(junction
+		(at 172.72 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f951a2b-c533-496c-bb52-48a092ed47a6")
 	)
 	(junction
 		(at 201.93 39.37)
@@ -5150,6 +5162,12 @@
 		(uuid "b4dbffaf-ecae-439d-9b57-41cb563214c3")
 	)
 	(junction
+		(at 207.01 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b51f64a1-4610-4b28-afa1-550c7917ca08")
+	)
+	(junction
 		(at 181.61 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5160,6 +5178,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be706227-9d4e-4567-8135-324b951a9c31")
+	)
+	(junction
+		(at 210.82 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfd8479a-a07b-4b9b-b6d1-309dd5bcb98e")
 	)
 	(junction
 		(at 222.25 35.56)
@@ -5275,7 +5299,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 60.96) (xy 204.47 60.96)
+			(xy 203.2 60.96) (xy 207.01 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5505,13 +5529,23 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 60.96) (xy 204.47 59.69)
+			(xy 210.82 60.96) (xy 210.82 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ed8746a-bac5-4262-a838-dde80a161d36")
+	)
+	(wire
+		(pts
+			(xy 172.72 60.96) (xy 172.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508a480c-739f-4b9f-a193-c6f5a870dc4e")
 	)
 	(wire
 		(pts
@@ -5545,7 +5579,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 62.23) (xy 204.47 60.96)
+			(xy 210.82 62.23) (xy 210.82 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5605,6 +5639,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 69.85) (xy 176.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6269f44f-617e-4bb0-aeba-2b95440edd76")
+	)
+	(wire
+		(pts
 			(xy 187.96 97.79) (xy 187.96 96.52)
 		)
 		(stroke
@@ -5622,6 +5666,16 @@
 			(type default)
 		)
 		(uuid "63b3103c-43b5-4ee4-9a5e-cff6052caa93")
+	)
+	(wire
+		(pts
+			(xy 207.01 69.85) (xy 210.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650b4c7b-9823-4274-b5b6-69123e64ac70")
 	)
 	(wire
 		(pts
@@ -5675,7 +5729,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 50.8) (xy 201.93 50.8)
+			(xy 210.82 50.8) (xy 208.28 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5712,6 +5766,16 @@
 			(type default)
 		)
 		(uuid "76a1a2f3-7df2-4c8b-97d8-2ee80b71e8ef")
+	)
+	(wire
+		(pts
+			(xy 172.72 60.96) (xy 176.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b3e462-fe52-45b1-bdab-8ee4975523d8")
 	)
 	(wire
 		(pts
@@ -5852,6 +5916,16 @@
 			(type default)
 		)
 		(uuid "b29e2e57-9528-4450-a583-b8eb52ca3771")
+	)
+	(wire
+		(pts
+			(xy 207.01 60.96) (xy 210.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b3bd73-870f-45e0-bbcf-9f7fa1c4f1d0")
 	)
 	(wire
 		(pts
@@ -6005,7 +6079,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 52.07) (xy 204.47 50.8)
+			(xy 210.82 52.07) (xy 210.82 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6025,7 +6099,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 60.96) (xy 176.53 60.96)
+			(xy 162.56 60.96) (xy 172.72 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6072,6 +6146,16 @@
 			(type default)
 		)
 		(uuid "fcf6f3ab-d961-4092-924c-2fe9b718c11b")
+	)
+	(wire
+		(pts
+			(xy 207.01 60.96) (xy 207.01 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0b5ed7-4d99-49a2-9290-85e77cf6198f")
 	)
 	(wire
 		(pts
@@ -8167,7 +8251,7 @@
 			)
 		)
 	)
-	(global_label "PC14"
+	(global_label "PC15"
 		(shape input)
 		(at 82.55 105.41 0)
 		(fields_autoplaced yes)
@@ -8193,7 +8277,7 @@
 	)
 	(global_label "PB6"
 		(shape input)
-		(at 173.99 60.96 180)
+		(at 162.56 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8203,7 +8287,7 @@
 		)
 		(uuid "6d1de517-5d09-412d-9ae0-59cf5985a848")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.2553 60.96 0)
+			(at 155.8253 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8791,7 +8875,7 @@
 			)
 		)
 	)
-	(global_label "PC15"
+	(global_label "PC14"
 		(shape input)
 		(at 80.01 107.95 0)
 		(fields_autoplaced yes)
@@ -9801,7 +9885,7 @@
 	)
 	(global_label "PB7"
 		(shape input)
-		(at 201.93 60.96 180)
+		(at 203.2 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9811,7 +9895,7 @@
 		)
 		(uuid "c6bf7a97-7f91-4814-92dc-edf9df629e7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.1953 60.96 0)
+			(at 196.4653 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10137,7 +10221,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 201.93 50.8 180)
+		(at 208.28 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10147,7 +10231,7 @@
 		)
 		(uuid "d7363bb5-84f4-4532-b118-c35a21ee7669")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4372 50.8 0)
+			(at 201.7872 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11247,6 +11331,88 @@
 			(project "syth_mcu"
 				(path "/6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0A")
+		(at 172.72 66.04 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ecc6ba6-9b81-45eb-a8ee-4df892d608ca")
+		(property "Reference" "D9"
+			(at 169.164 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ6.0A"
+			(at 169.164 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 177.8 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 172.72 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 172.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e7f95389-68bf-4d83-af6d-cc3cb00d2849")
+		)
+		(pin "1"
+			(uuid "a2ba0fd1-178a-44ea-b440-8c5aeaab4b9c")
+		)
+		(instances
+			(project "syth_mcu"
+				(path "/6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -13118,7 +13284,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ5.0A")
-		(at 204.47 66.04 270)
+		(at 210.82 66.04 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13128,7 +13294,7 @@
 		(dnp no)
 		(uuid "63cef592-a148-4935-9306-4a6a29a9ccac")
 		(property "Reference" "D10"
-			(at 208.026 67.31 90)
+			(at 214.376 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13139,7 +13305,7 @@
 			)
 		)
 		(property "Value" "SMAJ6.0A"
-			(at 208.026 64.77 90)
+			(at 214.376 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13150,7 +13316,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 199.39 66.04 0)
+			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13161,7 +13327,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 204.47 64.77 0)
+			(at 210.82 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13172,7 +13338,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 204.47 66.04 0)
+			(at 210.82 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13366,7 +13532,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.47 55.88 0)
+		(at 210.82 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13377,7 +13543,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fa1c6f7-e0f0-41fe-8f4d-324d65894e98")
 		(property "Reference" "SDAPullUpM1"
-			(at 207.01 54.6099 0)
+			(at 213.36 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13388,7 +13554,7 @@
 			)
 		)
 		(property "Value" "(1-4.7)k"
-			(at 207.01 57.1499 0)
+			(at 213.36 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13399,7 +13565,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 202.692 55.88 90)
+			(at 209.042 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13410,7 +13576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 55.88 0)
+			(at 210.82 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13421,7 +13587,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 204.47 55.88 0)
+			(at 210.82 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13531,7 +13697,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 69.85 0)
+		(at 210.82 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13541,7 +13707,7 @@
 		(dnp no)
 		(uuid "76216aee-9e83-45e3-993f-ff4c53ee21f3")
 		(property "Reference" "#PWR038"
-			(at 204.47 76.2 0)
+			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13552,7 +13718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 74.422 0)
+			(at 210.82 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13562,7 +13728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 69.85 0)
+			(at 210.82 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13573,7 +13739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 69.85 0)
+			(at 210.82 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13584,7 +13750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 69.85 0)
+			(at 210.82 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15575,6 +15741,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ5.0A")
+		(at 207.01 66.04 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c87fc753-dfde-4355-92a2-57ed62ec91d2")
+		(property "Reference" "D11"
+			(at 203.454 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ6.0A"
+			(at 203.454 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 212.09 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 207.01 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 207.01 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c48028f8-8f1e-43c7-8312-63379d378d20")
+		)
+		(pin "1"
+			(uuid "fd0bd863-b005-4d97-a138-8d914e87ccd2")
+		)
+		(instances
+			(project "syth_mcu"
+				(path "/6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 187.96 92.71 0)
 		(unit 1)
@@ -16263,7 +16511,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "synth:SS12D10"
 			(at 175.26 87.63 0)
 			(hide yes)
 			(show_name no)

@@ -2848,7 +2848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "synth:CONN-TH_PJ-316"
+		(property "Footprint" "synth:TRRS-PJ-320A"
 			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -3237,7 +3237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 89.8652 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3460,6 +3460,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 104.14 72.39 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3467,10 +3468,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4542b80a-f60c-49b7-9ab9-e49d8c60151e")
 		(property "Reference" "RV6"
-			(at 101.6 71.1199 0)
+			(at 101.6 73.6601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3481,7 +3481,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 101.6 73.6599 0)
+			(at 101.6 71.1201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4042,7 +4042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 89.8652 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4300,7 +4300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 80.3148 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4357,6 +4357,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 104.14 127 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4364,10 +4365,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b4c4266e-e882-4934-9420-f678a87866b6")
 		(property "Reference" "RV7"
-			(at 101.6 125.7299 0)
+			(at 101.6 128.2701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4378,7 +4378,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 101.6 128.2699 0)
+			(at 101.6 125.7301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4512,7 +4512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 80.3148 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5106,7 +5106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 103.1748 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5318,7 +5318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 103.1748 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5405,7 +5405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 105.1052 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5492,7 +5492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 105.1052 46.99 0)
 			(hide yes)
 			(show_name no)
