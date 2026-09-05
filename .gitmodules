@@ -1,0 +1,3 @@
+[submodule "libs/kiswitch"]
+	path = libs/kiswitch
+	url = https://github.com/kiswitch/keyswitch-kicad-library.git
