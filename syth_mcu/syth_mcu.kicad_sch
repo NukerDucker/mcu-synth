@@ -13804,7 +13804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "synth:MX-Alps-Choc-1U"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_1.00u"
 			(at 97.79 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14040,7 +14040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "synth:MX-Alps-Choc-1U"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_1.00u"
 			(at 40.64 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14382,7 +14382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "synth:MX-Alps-Choc-1U"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_1.00u"
 			(at 69.85 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14580,7 +14580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "synth:MX-Alps-Choc-1U"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_1.00u"
 			(at 25.4 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15133,7 +15133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "synth:MX-Alps-Choc-1U"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_1.00u"
 			(at 55.88 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16019,7 +16019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "synth:MX-Alps-Choc-1U"
+		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1_1.00u"
 			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)

@@ -5,232 +5,6 @@
 	(uuid "a50cf815-928b-4389-b6db-40a8ece85e35")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Audio:AudioPlug3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 1.27 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioPlug3"
-				(at 1.27 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 2.54 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 2.54 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm 6.35mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Plug*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AudioPlug3_0_0"
-				(text "R"
-					(at -2.54 0 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "AudioPlug3_0_1"
-				(rectangle
-					(start -3.81 3.81)
-					(end -1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -1.27)
-					(end -1.27 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioPlug3_1_0"
-				(text "T"
-					(at -8.89 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "S"
-					(at 3.81 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "AudioPlug3_1_1"
-				(rectangle
-					(start -3.81 3.81)
-					(end 8.89 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -5.08 3.81) (xy -6.35 2.54) (xy -10.16 3.81) (xy -12.7 1.27) (xy -12.7 -1.27)
-						(xy -10.16 -3.81) (xy -6.35 -2.54) (xy -5.08 -3.81) (xy -3.81 -3.81) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 12.7 5.08)
-					(end 8.89 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -828,7 +602,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
+			(property "Sim.Pins" "1=G 2=S 3=D"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1164,7 +938,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
+			(property "Sim.Pins" "1=G 2=S 3=D"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1665,6 +1439,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "synth:PJ-320A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PJ-320A"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "synth:TRRS-PJ-320A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3.5mm Stereo Audio Jack, 4-pin TRRS, PJ-320A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PJ-320A_0_1"
+				(rectangle
+					(start -2.54 -5.08)
+					(end 0 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PJ-320A_1_1"
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "Tip"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "Ring1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "Ring2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "Sleeve"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "16-10k+ ohms of impedance"
 		(exclude_from_sim no)
@@ -1818,6 +1743,10 @@
 		(color 0 0 0 0)
 		(uuid "fcc2491c-565f-488d-8599-405394cbc43e")
 	)
+	(no_connect
+		(at 46.99 172.72)
+		(uuid "cd255f28-3065-4bd9-bde6-56a72048ebcb")
+	)
 	(wire
 		(pts
 			(xy 31.75 132.08) (xy 31.75 125.73)
@@ -1837,26 +1766,6 @@
 			(type default)
 		)
 		(uuid "01708221-b506-4445-ba39-571b3fc2ba8f")
-	)
-	(wire
-		(pts
-			(xy 40.64 158.75) (xy 40.64 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0216e85a-469d-422d-97b4-5b445ff52324")
-	)
-	(wire
-		(pts
-			(xy 40.64 157.48) (xy 45.72 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02e6edc5-40de-4914-938a-55cc621c1082")
 	)
 	(wire
 		(pts
@@ -2057,16 +1966,6 @@
 			(type default)
 		)
 		(uuid "47705c69-732b-4d4e-a26d-a5030d5fb92a")
-	)
-	(wire
-		(pts
-			(xy 44.45 152.4) (xy 45.72 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "498730b4-484a-46fd-90c8-3b67e0e5dd8c")
 	)
 	(wire
 		(pts
@@ -2560,16 +2459,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 154.94) (xy 45.72 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d67173eb-7d1e-46f2-8146-35977f9a0416")
-	)
-	(wire
-		(pts
 			(xy 104.14 46.99) (xy 104.14 48.26)
 		)
 		(stroke
@@ -2699,6 +2588,26 @@
 		(uuid "ff23b881-5459-4980-81e9-3bf2f210842b")
 	)
 	(label "AudOutLeft"
+		(at 46.99 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "182dd6eb-e91e-43ea-ad0b-8926415de727")
+	)
+	(label "AudOutRight"
+		(at 46.99 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23b2e1ad-2a27-4c2b-9533-80403b1a9881")
+	)
+	(label "AudOutLeft"
 		(at 109.22 127 0)
 		(effects
 			(font
@@ -2718,26 +2627,6 @@
 		)
 		(uuid "c11b69d0-871b-4bb2-83c0-1792dca20198")
 	)
-	(label "AudOutLeft"
-		(at 44.45 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "df80b4ce-b0f0-45c3-8805-8f316b8817e8")
-	)
-	(label "AudOutRight"
-		(at 44.45 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "faaef30e-dec4-4701-91ad-9d2e74ec03cc")
-	)
 	(hierarchical_label "+3V3 DAC"
 		(shape input)
 		(at 104.14 35.56 90)
@@ -2748,6 +2637,17 @@
 			(justify left)
 		)
 		(uuid "0e590eb2-92d8-4e33-ac76-1cf0a37b6001")
+	)
+	(hierarchical_label "GNDDAC"
+		(shape input)
+		(at 46.99 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36130809-ec78-4e7c-b13a-6062b7cb0a25")
 	)
 	(hierarchical_label "+3V3 DAC"
 		(shape input)
@@ -2784,17 +2684,6 @@
 	)
 	(hierarchical_label "GNDDAC"
 		(shape input)
-		(at 40.64 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "968c6f43-1b4d-4290-96a2-b8f2df44fd0a")
-	)
-	(hierarchical_label "GNDDAC"
-		(shape input)
 		(at 50.8 78.74 270)
 		(effects
 			(font
@@ -2814,96 +2703,6 @@
 			(justify right)
 		)
 		(uuid "fbd83b44-00d2-4c67-aa8e-6ee360b324fc")
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioPlug3")
-		(at 60.96 154.94 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c64351c-b70e-44e5-91bf-4f188cb5f781")
-		(property "Reference" "J4"
-			(at 74.93 156.2101 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioPlug3"
-			(at 74.93 153.6701 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "synth:TRRS-PJ-320A"
-			(at 58.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 60.96 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "a143cc78-daad-4da5-b898-2284cb7d3ec8")
-		)
-		(pin "S"
-			(uuid "276763a5-0c2c-422a-a2e9-2f656cac3575")
-		)
-		(pin "R"
-			(uuid "575b4f59-60be-4665-b4f7-7259941f4e70")
-		)
-		(instances
-			(project "synth"
-				(path "/1e7814a7-1315-4eb0-a9cb-3b93c6dc7966/1c0b7db5-fb47-467b-b91f-0adacc62fbe2"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project "syth_mcu"
-				(path "/6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc/de801ae6-5eb3-45eb-b018-1b4139932f15"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3169,7 +2968,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
+		(property "Sim.Pins" "1=G 2=S 3=D"
 			(at 48.26 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3576,6 +3375,93 @@
 			(project "syth_mcu"
 				(path "/6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc/de801ae6-5eb3-45eb-b018-1b4139932f15"
 					(reference "RV6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "synth:PJ-320A")
+		(at 52.07 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f6579e0-b26b-43a3-84e9-8b467422970b")
+		(property "Reference" "J3"
+			(at 53.34 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PJ-320A"
+			(at 56.388 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "synth:TRRS-PJ-320A"
+			(at 52.07 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.5mm Stereo Audio Jack, 4-pin TRRS, PJ-320A"
+			(at 52.07 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1022482c-8ea6-4671-880b-3571776026ed")
+		)
+		(pin "1"
+			(uuid "9b53b9e4-6e69-49cd-ad40-2b6ebf502bd4")
+		)
+		(pin "3"
+			(uuid "7a52f2f2-9bbc-40b1-bb1d-785806baa193")
+		)
+		(pin "4"
+			(uuid "5f0bac9e-f8f0-4dae-9ce9-2be878007293")
+		)
+		(instances
+			(project "syth_mcu"
+				(path "/6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc/de801ae6-5eb3-45eb-b018-1b4139932f15"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4744,7 +4630,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
+		(property "Sim.Pins" "1=G 2=S 3=D"
 			(at 48.26 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5037,7 +4923,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
+		(property "Sim.Pins" "1=G 2=S 3=D"
 			(at 48.26 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5249,7 +5135,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
+		(property "Sim.Pins" "1=G 2=S 3=D"
 			(at 48.26 78.74 0)
 			(hide yes)
 			(show_name no)

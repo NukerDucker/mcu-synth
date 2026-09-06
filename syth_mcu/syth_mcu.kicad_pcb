@@ -7707,6 +7707,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/local_3dmodels/Kailh_Choc.3dshapes/Kailh_LP_Choc.step"
+			(offset
+				(xyz 0 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "LOGO"
 		(layer "F.Cu")
@@ -11995,7 +12006,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/local_3dmodels/Kailh_Choc.3dshapes/Kailh_LP_Choc.step"
+			(offset
+				(xyz 0 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -13542,7 +13564,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "839ec03e-3010-468d-bb51-1acc31184be6")
-		(at 154.35 142.2175 90)
+		(at 151.81 142.2175 90)
 		(descr "Through hole straight socket strip, 1x16, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x16 2.54mm single row")
 		(property "Reference" "J7"
@@ -15430,7 +15452,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/local_3dmodels/Kailh_Choc.3dshapes/Kailh_LP_Choc.step"
+			(offset
+				(xyz 0 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -16631,6 +16664,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/local_3dmodels/Kailh_Choc.3dshapes/Kailh_LP_Choc.step"
+			(offset
+				(xyz 0 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -23941,6 +23985,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/local_3dmodels/Kailh_Choc.3dshapes/Kailh_LP_Choc.step"
+			(offset
+				(xyz 0 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -32028,6 +32083,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/local_3dmodels/Kailh_Choc.3dshapes/Kailh_LP_Choc.step"
+			(offset
+				(xyz 0 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -40516,6 +40582,22 @@
 		(uuid "f6b5811c-a2f5-40ee-8c2b-7956daf74e21")
 	)
 	(segment
+		(start 100.419151 69.585962)
+		(end 100.419151 62.05)
+		(width 1.5)
+		(layer "F.Cu")
+		(net "Net-(C8-Pad2)")
+		(uuid "0cbf0b01-5be6-4c05-9a51-a629ec0dd1fb")
+	)
+	(segment
+		(start 95.8 74.205113)
+		(end 100.419151 69.585962)
+		(width 1.5)
+		(layer "F.Cu")
+		(net "Net-(C8-Pad2)")
+		(uuid "42018104-db71-4aeb-a0bb-a575cb512fb4")
+	)
+	(segment
 		(start 116.95 60.941672)
 		(end 116.95 62.05)
 		(width 1.5)
@@ -40546,22 +40628,6 @@
 		(layer "F.Cu")
 		(net "/DAC Channel/AudOutRight")
 		(uuid "f5d574b7-9543-40cf-a888-ceb04c6cfa37")
-	)
-	(segment
-		(start 100.419151 69.585962)
-		(end 100.419151 62.05)
-		(width 1.5)
-		(layer "F.Cu")
-		(net "Net-(C8-Pad2)")
-		(uuid "0cbf0b01-5be6-4c05-9a51-a629ec0dd1fb")
-	)
-	(segment
-		(start 95.8 74.205113)
-		(end 100.419151 69.585962)
-		(width 1.5)
-		(layer "F.Cu")
-		(net "Net-(C8-Pad2)")
-		(uuid "42018104-db71-4aeb-a0bb-a575cb512fb4")
 	)
 	(segment
 		(start 131.345364 118.162)
