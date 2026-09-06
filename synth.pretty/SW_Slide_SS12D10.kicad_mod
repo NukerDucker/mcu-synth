@@ -1,7 +1,6 @@
 (footprint "SW_Slide_SS12D10"
   (version 20221018)
   (generator pcbnew)
-  (description "SPDT Slide Switch SS12D10 / SK12D07 family, 3-pin, 2mm pitch, THT.")
   (tags "slide switch SPDT SS12D10 THT")
   (attr through_hole)
   (fp_text reference "SW1" (at 2.0 -3.5 0) (layer "F.SilkS")

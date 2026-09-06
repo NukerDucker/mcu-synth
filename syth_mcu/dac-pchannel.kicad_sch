@@ -2913,7 +2913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "synth:SI230x SOT-23"
 			(at 53.34 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4575,7 +4575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "synth:SI230x SOT-23"
 			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4868,7 +4868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "synth:SI230x SOT-23"
 			(at 53.34 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -5080,7 +5080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "synth:SI230x SOT-23"
 			(at 53.34 60.96 0)
 			(hide yes)
 			(show_name no)

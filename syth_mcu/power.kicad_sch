@@ -1768,7 +1768,7 @@
 		)
 		(uuid "c75b0616-fbea-4ff6-a272-71f74780a555")
 	)
-	(text "AMS1 used for mux,\nand pot into gpio is neglegible,\nthus max current pulled is 168mA"
+	(text "AMS1 used for mux,\nand pot into gpio is neglegible,\nthus max current pulled is 50mA"
 		(exclude_from_sim no)
 		(at 104.394 83.058 0)
 		(effects
@@ -3074,7 +3074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "synth:RXEF040"
 			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3719,7 +3719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "synth:RXEF160"
 			(at 60.96 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -6095,7 +6095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "synth:RXEF040"
 			(at 68.58 109.22 0)
 			(hide yes)
 			(show_name no)
