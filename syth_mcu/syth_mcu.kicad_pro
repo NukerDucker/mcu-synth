@@ -570,7 +570,7 @@
       "netlist": "",
       "plot": "./",
       "specctra_dsn": "",
-      "step": "",
+      "step": "syth_mcu.stl",
       "vrml": "syth_mcu.wrl"
     },
     "page_layout_descr_file": ""

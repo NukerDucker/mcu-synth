@@ -3445,6 +3445,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d4fb55e1-8ec7-4ad6-a9d7-57c3c81d2b1a")
 			(effects
 				(font
