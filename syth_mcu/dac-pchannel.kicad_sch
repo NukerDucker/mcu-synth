@@ -3268,7 +3268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4542b80a-f60c-49b7-9ab9-e49d8c60151e")
-		(property "Reference" "RV6"
+		(property "Reference" "RV13"
 			(at 101.6 73.6601 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3374,7 +3374,7 @@
 			)
 			(project "syth_mcu"
 				(path "/6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc/de801ae6-5eb3-45eb-b018-1b4139932f15"
-					(reference "RV6")
+					(reference "RV13")
 					(unit 1)
 				)
 			)
@@ -4252,7 +4252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4c4266e-e882-4934-9420-f678a87866b6")
-		(property "Reference" "RV7"
+		(property "Reference" "RV14"
 			(at 101.6 128.2701 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4358,7 +4358,7 @@
 			)
 			(project "syth_mcu"
 				(path "/6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc/de801ae6-5eb3-45eb-b018-1b4139932f15"
-					(reference "RV7")
+					(reference "RV14")
 					(unit 1)
 				)
 			)

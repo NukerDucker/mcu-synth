@@ -699,7 +699,7 @@
         "uuid": "6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc"
       }
     ],
-    "used_designators": "CN1-2,J1-13,R1-10,H1-22,USB1,#FLG1-2,F1,SW1-8,U1-6,C1-9,#PWR1-38,D1-2,Q1-4,RV1-8",
+    "used_designators": "CN1-2,J1-13,USB1,H1-22,R1-10,#FLG1-2,F1,SW1-8,U1-6,C1-9,#PWR1-38,#PWR42-51,D1-3,Q1-4,RV1-13,RV15-17",
     "variants": []
   },
   "sheets": [
@@ -710,6 +710,10 @@
     [
       "de801ae6-5eb3-45eb-b018-1b4139932f15",
       "DAC Channel"
+    ],
+    [
+      "077ae08f-3ae9-40e2-a0fd-b215fa7f173f",
+      "Power"
     ]
   ],
   "text_variables": {},
