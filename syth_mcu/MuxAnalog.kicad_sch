@@ -1520,30 +1520,6 @@
 	)
 	(global_label "AMS2_3.3V"
 		(shape input)
-		(at 0.0794 1.3498 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2558245e-33de-4a32-ab64-d51d8a998315")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.1036 1.3498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "AMS2_3.3V"
-		(shape input)
 		(at 71.12 90.17 270)
 		(fields_autoplaced yes)
 		(effects
@@ -2149,7 +2125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "synth:TO-92_Inline_AH3503"
 			(at 109.22 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -2547,7 +2523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "synth:TO-92_Inline_AH3503"
 			(at 73.66 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -3574,7 +3550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "synth:TO-92_Inline_AH3503"
 			(at 118.11 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -3658,7 +3634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "synth:TO-92_Inline_AH3503"
 			(at 100.33 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -3742,7 +3718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "synth:TO-92_Inline_AH3503"
 			(at 127 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -3826,7 +3802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "synth:TO-92_Inline_AH3503"
 			(at 144.78 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -3909,7 +3885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "synth:TO-92_Inline_AH3503"
 			(at 46.99 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4699,7 +4675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "synth:TO-92_Inline_AH3503"
 			(at 82.55 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4782,7 +4758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "synth:TO-92_Inline_AH3503"
 			(at 91.44 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4984,7 +4960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "synth:TO-92_Inline_AH3503"
 			(at 135.89 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -5067,7 +5043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "synth:TO-92_Inline_AH3503"
 			(at 64.77 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -5386,7 +5362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "synth:TO-92_Inline_AH3503"
 			(at 55.88 29.21 0)
 			(hide yes)
 			(show_name no)
