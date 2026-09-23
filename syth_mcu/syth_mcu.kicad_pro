@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.2,
-          "width": 2.2
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -63,7 +63,7 @@
           "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -253,6 +253,10 @@
         },
         {
           "diameter": 0.7,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.95,
           "drill": 0.2
         },
         {
@@ -744,7 +748,7 @@
         "uuid": "6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc"
       }
     ],
-    "used_designators": "GND1-2,CN1-2,J1-13,R1-10,R12,R15-26,#FLG1-2,H1-22,SW1-13,RV1-12,F1,USB1,U1-6,5V_On1,C1-11,#PWR1-38,#PWR42-43,D1-3,Q1-4,TP1,AMS3.3Fused1,AMS3.3GND1,AMS3.3VFused1,USB5VFused1,LeftConn1,RightConn1",
+    "used_designators": "GND1-2,CN1-2,J1-13,R1-10,R12,R15-26,#FLG1-2,H1-22,SW1-13,RV1-12,F1,USB1,U1-6,5V_On1,C1-11,#PWR1-38,#PWR42-43,D1-3,Q1-4,TP1,AMS3.3Fused1,AMS3.3GND1,AMS3.3VFused1,USB5VFused1,LeftConn1,RightConn1,MCU5VFuse1",
     "variants": []
   },
   "sheets": [

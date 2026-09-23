@@ -1952,6 +1952,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5456,6 +5621,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 87.63) (xy 170.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5311ff00-9d20-4ecc-8c77-a576575b326e")
+	)
+	(wire
+		(pts
 			(xy 82.55 95.25) (xy 82.55 81.28)
 		)
 		(stroke
@@ -5783,6 +5958,16 @@
 			(type default)
 		)
 		(uuid "bdd784ce-6dee-4aea-b24e-f62ce8be2a2e")
+	)
+	(wire
+		(pts
+			(xy 160.02 87.63) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5c002b-ee04-4ca5-9145-ec0db47a8151")
 	)
 	(wire
 		(pts
@@ -6772,7 +6957,7 @@
 	)
 	(global_label "PB7"
 		(shape input)
-		(at 134.62 80.01 0)
+		(at 134.62 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6782,7 +6967,7 @@
 		)
 		(uuid "2edb3fa8-cfa9-4069-926a-fb56d3e7f02a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.3547 80.01 0)
+			(at 141.3547 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6868,7 +7053,7 @@
 	)
 	(global_label "PB7"
 		(shape input)
-		(at 134.62 107.95 0)
+		(at 134.62 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6878,7 +7063,7 @@
 		)
 		(uuid "3323e82f-8021-430b-b6bc-4f459ca40ace")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.3547 107.95 0)
+			(at 141.3547 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7588,7 +7773,7 @@
 	)
 	(global_label "D_5V"
 		(shape input)
-		(at 134.62 85.09 0)
+		(at 134.62 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7598,7 +7783,7 @@
 		)
 		(uuid "5de9b8dd-ac53-461f-b7c1-a4f227476e04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.1409 85.09 0)
+			(at 142.1409 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7852,7 +8037,7 @@
 	)
 	(global_label "PB6"
 		(shape input)
-		(at 134.62 105.41 0)
+		(at 134.62 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7862,7 +8047,7 @@
 		)
 		(uuid "748e0832-9989-4ed6-ad5e-275b445bb804")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.3547 105.41 0)
+			(at 141.3547 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7900,7 +8085,7 @@
 	)
 	(global_label "PC14"
 		(shape input)
-		(at 134.62 110.49 0)
+		(at 134.62 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7910,7 +8095,7 @@
 		)
 		(uuid "750b0899-fde5-4120-a567-2897b6c1d95f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.5642 110.49 0)
+			(at 142.5642 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7948,7 +8133,7 @@
 	)
 	(global_label "PC15"
 		(shape input)
-		(at 134.62 82.55 0)
+		(at 134.62 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7958,7 +8143,7 @@
 		)
 		(uuid "78988945-8559-4b46-9307-740e1001f7a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.5642 82.55 0)
+			(at 142.5642 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8332,7 +8517,7 @@
 	)
 	(global_label "PB6"
 		(shape input)
-		(at 134.62 77.47 0)
+		(at 134.62 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8342,7 +8527,7 @@
 		)
 		(uuid "91635794-0fdd-4154-8a7b-7dafcc1a5250")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.3547 77.47 0)
+			(at 141.3547 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8380,7 +8565,7 @@
 	)
 	(global_label "D_5V"
 		(shape input)
-		(at 134.62 113.03 0)
+		(at 134.62 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8390,7 +8575,7 @@
 		)
 		(uuid "97180b4f-7364-4faa-97e0-e3ffe3d91fce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.1409 113.03 0)
+			(at 142.1409 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8572,7 +8757,7 @@
 	)
 	(global_label "D_5V"
 		(shape input)
-		(at 170.18 87.63 180)
+		(at 160.02 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8582,7 +8767,7 @@
 		)
 		(uuid "a34377c1-b1da-4313-94d9-d6be34ed4dde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.6591 87.63 0)
+			(at 152.4991 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9987,6 +10172,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 165.1 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00e98efa-2204-481c-8cad-59279d0a39a5")
+		(property "Reference" "MCU5VFuse1"
+			(at 165.1 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RXEF040"
+			(at 165.1 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "synth:RXEF040"
+			(at 170.18 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ee88cb29-2dd7-49fa-8398-f21668f1312d")
+		)
+		(pin "1"
+			(uuid "c75b28f6-2c55-4a77-951d-e03ca0bb83e1")
+		)
+		(instances
+			(project "syth_mcu"
+				(path "/6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc"
+					(reference "MCU5VFuse1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 58.42 129.54 270)
 		(unit 1)
@@ -11042,7 +11308,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 74.93 90)
+		(at 134.62 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11053,7 +11319,7 @@
 		(fields_autoplaced yes)
 		(uuid "2731c515-331e-4330-be07-10a19e4adbc3")
 		(property "Reference" "#PWR07"
-			(at 140.97 74.93 0)
+			(at 140.97 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11064,7 +11330,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 74.9301 90)
+			(at 138.43 85.0901 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11075,7 +11341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 74.93 0)
+			(at 134.62 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11086,7 +11352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 74.93 0)
+			(at 134.62 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11097,7 +11363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 74.93 0)
+			(at 134.62 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12670,7 +12936,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 102.87 90)
+		(at 134.62 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12681,7 +12947,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f517ef0-8690-4cdf-b51b-fed60bad627a")
 		(property "Reference" "#PWR08"
-			(at 140.97 102.87 0)
+			(at 140.97 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12692,7 +12958,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 102.8701 90)
+			(at 138.43 113.0301 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12703,7 +12969,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 102.87 0)
+			(at 134.62 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12714,7 +12980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 102.87 0)
+			(at 134.62 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12725,7 +12991,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 102.87 0)
+			(at 134.62 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
