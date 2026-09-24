@@ -2092,7 +2092,7 @@
 		)
 		(uuid "e6a3ac95-5052-4eda-8cde-6db7cc870b9b")
 	)
-	(text "210mA max from screen and audio,\n14*7mA max from hall effect on a board = 100mA per board,\nmcu takes 50mA max,\nmux takes 50mA max,\n210mA + ((100+50+50)*5 boards) = 1.2A max for 5 boards,\nso psu and trace needs to be rated for 1.5A to run it 80% in worst case"
+	(text "210mA max from screen and audio,\n14*12mA max from hall effect on a board = 168mA per board,\nmcu takes 50mA max,\nmux takes 50mA max,\n210mA + ((168+50+50)*5 boards) = 1.550A max for 5 boards"
 		(exclude_from_sim no)
 		(at 147.066 32.258 0)
 		(effects
