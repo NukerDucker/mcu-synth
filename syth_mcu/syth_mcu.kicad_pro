@@ -212,7 +212,8 @@
       "track_widths": [
         0.0,
         0.2,
-        1.0
+        1.0,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -656,6 +657,18 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -714,7 +727,7 @@
         "uuid": "6f6073ad-48fd-4b64-b32f-c8e9bfc21ddc"
       }
     ],
-    "used_designators": "CN1-2,J1-13,R1-10,#FLG1-2,H1-22,SW1-8,SW14,RV1-8,F1,USB1,U1-6,C1-9,#PWR1-38,D1-2,Q1-4,5VToAmp1",
+    "used_designators": "CN1-2,J1-13,R1-10,#FLG1-2,H1-22,SW1-8,SW14,RV1-8,F1,USB1,U1-6,C1-9,#PWR1-38,#PWR43-46,D1-2,Q1-4,5VToAmp1,PogoLeft1",
     "variants": []
   },
   "sheets": [
